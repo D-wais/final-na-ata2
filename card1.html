@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=5.0, minimum-scale=0.5">
+    <style>
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css');
+
+        body {
+            font-family: 'Lora', sans-serif;
+            font-size: 20px;
+            line-height: 1.5;
+            background-color: #fff;
+            background-image: url('pngtree-retro-letter-paper-background-old-style-image_774232.jpg');
+            background-attachment: scroll;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .box {
+            background: #faebd7;
+            padding: 60px;
+            color: #000000;
+            position: relative;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .box h3 {
+            font-size: 30px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin: 5px;
+        }
+
+        .top-border::before {
+            content: '';
+            width: 71px;
+            height: 71px;
+            position: absolute;
+            background: url('pc7KdEzLi.png');
+            bottom: 20px;
+            right: 20px;
+            transform: rotate(180deg);
+        }
+
+        .ring {
+            width: 100px;
+        }
+
+        .love {
+            animation: pulse 1s ease infinite;
+            display: inline-block;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.3);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        
+        .audio-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .custom-button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #faebd7;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.custom-button:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.custom-button:active {
+    color: #ffffff
+}
+
+.custom-button:active:after {
+    background: transparent;
+}
+
+.custom-button:hover:before {
+    opacity: 1;
+}
+
+.custom-button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+    </style>
+</head>
+
+<body>
+  
+    <div class="content">
+        <div class="main">
+            <div class="box">
+                <div class="top-border"></div>
+               
+                <div class="wrapper">
+                    <h3>HI! <span class="love">❤ </span> MYLA</h3>
+                    <p>
+                        Hello pi, 
+                        First of all you may have a little bit of clue/hint na I have a crush on you as your friend stated 
+                        na "may gut feel siya" since nagcchat daw ako sayo HAHAHAHA which true naman yon. 
+                        So here my confession starts, I honestly told myself na I would focus muna on acads this 2nd yr 
+                        pero things have changed at first nung naging classmate tayo this 2nd yr 1st sem di ko talaga pinapansin yung mga hindi ko ka close kasi introvert akong tao like I need to adjust muna to make new friends ayon weeks passed by 
+                        may certain feeling  na I couldn't understand basta all I know noon na lagi napupunta sayo yung attention ko and 
+                        that one time na narinig kitang kumanta kasi that time ata yung may nag ask sayo anong song kinanta mo nung 
+                        audition mo for Artist Circle that the day talaga it started, lagi kang nasa isip ko lalo na pag vacant natin and dun sa 
+                        pasimpleng pag aalok sayo ng Japanese cake na I didn't know na you like Japanese cake a lot sabi nung isa mong friend. 
+                        I am also the one na nagpaabot kay Ryza nung small black box and I did told Ryza na wag muna syang magbigay ng clue about sa nagbigay non hehe. Basta madaming aspects akong nagustuhan sayo isa na don yung pagiging simple and approachable mo tas magaling pa kumanta,  I hope one day may maligaw na kanta mo sa messenger ko HAHAHAH ayun lang.
+                    </p>
+                    
+                    </p>
+                </div>
+                <button class="custom-button">
+                    <a href="flower.html">
+                        <img src="ROSE.png" alt="Image Button" width="50" height="50">
+                        
+                    </a>
+                </button>
+                <p>Di ko afford real flowers eh eto nlng muna hehe</p>
+            </div>
+        </div>
+        
+       
+        </div>
+    </div>
+</body>
+
+</html>
